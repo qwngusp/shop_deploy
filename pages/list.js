@@ -102,9 +102,10 @@ const ListPage = (() => {
         <div class="product-row__price-row">
           <span class="product-row__discount">${p.discountRate}%</span>
           <span class="product-row__price">${p.discountedPrice.toLocaleString()}원</span>
-        </div>
+          <p class="product-row__per-unit">(${p.pricePerUnit})</p>
+          </div>
         <p class="product-row__original">${p.originalPrice.toLocaleString()}원</p>
-        <p class="product-row__per-unit">${p.pricePerUnit}</p>
+        
 
         <div class="product-row__footer">
           <span class="product-row__shipping">

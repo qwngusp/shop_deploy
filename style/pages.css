@@ -271,7 +271,7 @@
 .product-row__discount { font-size: 15px; font-weight: 800; color: var(--primary); }
 .product-row__price { font-size: 16px; font-weight: 800; color: var(--text-primary); }
 .product-row__original { font-size: 11px; color: var(--text-muted); text-decoration: line-through; }
-.product-row__per-unit { font-size: 11px; }
+.product-row__per-unit { font-size: 13px; }
 .product-row__shipping {
   font-size: 11px;
   /* color: var(--text-secondary); */
